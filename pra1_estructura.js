@@ -30,7 +30,7 @@
    ============================================================================= */
 
 class Anime {
-  constructor({mal_id, title,synopsis, episodes, status, score, type, genres, studios, image_url, popularity}) {
+  constructor({id, title,synopsis, episodes, status, score, type, genres, studios, image_url, popularity}) {
     // Usamos propiedades privadas (convención con _) para obligar el acceso
     // a través de getters/setters y poder añadir validaciones centralizadas.
     // ...
